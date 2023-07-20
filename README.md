@@ -3,6 +3,15 @@
 Um sistema simples de gerenciamento de inventário construído com Django.
 Os usuários podem adicionar itens de estoque e gerar contas. Todos os dados são armazenados no banco de dados e são renderizados em tempo real
 
+Para configurar o projeto inicialmente, é necessário rodar os seguintes comandos no terminal:
+
+```bash
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+python contrib\env_gen.py
+```
+
 Para executar o projeto, execute os seguintes comandos no diretório do projeto para criar o banco de dados. Ao executar o software pela primeira vez, é necessário executar cada comando para cada app do projeto:
 
 ```bash
