@@ -30,14 +30,14 @@ python manage.py makemigrations
 python manage.py migrate
 ```
 
-Use o seguinte comando para executar o servidor:
-
-```bash
-python manage.py runserver
-```
-
 Use o seguinte comando para criar um usuário administrador:
 
 ```bash
 python manage.py createsuperuser
+```
+
+Use o seguinte comando para executar o servidor:
+
+```bash
+python manage.py runserver
 ```
